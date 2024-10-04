@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+nav{
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 5px; */
+}
+
+.nav--title{
+    font-family: Inter;
+font-size: 14.46px;
+font-weight: 300;
+line-height: 17.5px;
+letter-spacing: -0.075em;
+text-align: left;
+color: #FFFFFF;
+}
+
+.globe{
+    width: 24px;
+height: 24px;
+top: 16px;
+left: 213px;
+gap: 0px;
+opacity: 0px;
+margin: 5px;
+}
+
+.card{
+    margin: 2rem;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.travel-image{
+    width: 125px;
+height: 168px;
+top: 100px;
+left: 40px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+padding: 0%;
+margin-right: 1.5rem;
+
+}
+
+.header-info{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.travel-info{
+    margin: 5px;
+    padding: 5px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.pin{
+    width: 7px;
+height: 9.55px;
+top: 120px;
+left: 184px;
+gap: 0px;
+opacity: 0px;
+margin-top: 11px;
+margin-right: 5px;
+}
+
+.card--location{
+    font-family: Inter;
+font-size: 10.24px;
+font-weight: 400;
+line-height: 12.39px;
+letter-spacing: 0.17em;
+text-align: left;
+
+}
+
+a{
+    font-family: Inter;
+font-size: 10.24px;
+font-weight: 400;
+line-height: 12.39px;
+text-align: left;
+color: #918E9B;
+margin-top: 9px;
+margin-left: 1rem;
+
+}
+
+h1{
+    font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: left;
+margin-top: 1px;
+}
+
+.date{
+    font-family: Inter;
+font-size: 10.24px;
+font-weight: 700;
+line-height: 12.39px;
+text-align: left;
+
+}
+
+.description{
+    font-family: Inter;
+font-size: 10.24px;
+font-weight: 400;
+line-height: 15.36px;
+text-align: left;
+color: #2B283A;
+
+}
+
+hr{
+    border: 1px solid #F5F5F5;
+    margin: 10px 0px;
+}
